@@ -1,0 +1,13 @@
+<!--views/nav.ejs-->
+<nav class="bg-dark text-white text-center py-3">
+    <h1 class="h3 float-left pl-5">Weather and Map</h1>
+    <% if (!isAdmin) { %>
+        <form action="/history" method="post" class="float-left">
+            <button type="submit" class="btn btn-dark">History</button>
+        </form>
+    <% } %>
+    <!-- Logout button -->
+    <form action="/logout" method="post" class="float-right">
+        <button type="submit" class="btn btn-dark">Logout</button>  
+    </form>
+</nav>
