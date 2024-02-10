@@ -1,33 +1,60 @@
-# Backend Weather with Authorization
+# Assignment - 2: MongoDB and Deployment
 
-This project is a backend application that provides weather information based on user input. It utilizes various APIs to fetch weather data.
+## Overview
+This individual assignment focuses on working with MongoDB and Deployment. The project includes developing a login page, admin panel, integrating APIs, and deploying the application.
 
-## Technologies Used
+## Features
+1. **Login Page and Admin Panel:**
+   - Develop a login page integrated with MongoDB Atlas.
+   - Store user information including user ID, username, creation date, update date, deletion date, and admin status.
+   - Implement an admin panel for managing users.
 
-- Node.js: The backend is built using Node.js, a JavaScript runtime environment.
-- Express.js: Express.js is used as the web application framework for handling HTTP requests and routing.
-- OpenWeatherMap API: The OpenWeatherMap API is used to fetch weather data.
-- The Google Maps API is a powerful tool for integrating maps into your application.
-- Unsplash API: The Unsplash API is used to fetch high-quality images for displaying weather conditions.
+2. **API Integration:**
+   - Integrated `OpenWeather API`, `Google Map API` and `Unplash API`.
+   - In MongoDB Atlas database have table for user and their histories.
 
-## Getting Started
-To get started with the project, follow these steps:
+3. **Deployment:**
+   - Deploy the project on a hosting service. I used `Microsoft Azure Virtual Machine` to get access my website
+   
+4. **Project Organization and Design:**
+   - Maintain clean code and project structure.
+   - Follow best practices for coding.
+   - `Bootstrap` used
+   
+5. **Responsive Design and User Interface:**
+   - Design visually appealing UI with EJS.
+   - Implement a navigation bar for seamless redirection.
 
-1. Turn off all external extensions from your Browser (AdBlocker etc.)
-2. Clone the repository: `git clone https://github.com/your-username/backend-login.git`
-3. Install dependencies: `npm install`
-4. Setup these environmental variables in `.env` file
-    ```
-    OPENCAGE_API_KEY
-    OPENWEATHER_API_KEY
-    UNSPLASH_API_KEY
-    GOOGLE_MAPS_API_KEY
-    ``` 
-4. Start the server: `npm start`
+## Requirements
+- The server must run on port `3000`.
+- Grant IP access to Atlas from any location.
 
-## Creator
-Nurdaulet Orynbassarov SE-2201
+## Setup Instructions
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Set environment variables for API keys.
+4. Run the server using `npm start`.
 
-## License
+## API Usage
+- Provide instructions for API usage.
+- Document endpoints and expected responses.
+- create `.env` file into directory 
+```bash
+    PORT=3000
+    mongoURI=YOUR-MONGODB-ATLAS
+    SESSION_SECRET=ANY-WORD
+    OPENWEATHERMAP_API_KEY=YOUR-API
+    UNSPLASH_API_KEY=YOUR-API
+    GOOGLE_MAPS_API_KEY=YOUR-API
+```
 
-This project is licensed under the [MIT License](LICENSE).
+## Admin Username and Password
+- Admin username: Nurdaulet
+- Admin password: 'admin'
+
+## Project Contributors
+- Nurdaulet, Group SE-2201
+
+## Links
+- **Deployed Link:** http://20.82.148.215/
+- **GitHub Repository:** https://github.com/ornur/backend-login
