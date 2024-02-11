@@ -1,4 +1,4 @@
-# Assignment - 2: MongoDB and Deployment
+# Assignment - 3: MongoDB and Deployment
 
 ## Overview
 This individual assignment focuses on working with MongoDB and Deployment. The project includes developing a login page, admin panel, integrating APIs, and deploying the application.
