@@ -50,7 +50,7 @@ This individual assignment focuses on working with MongoDB and Deployment. The p
 
 ## Admin Username and Password
 - Admin username: Nurdaulet
-- Admin password: 'admin'
+- Admin password: In moodle
 
 ## Project Contributors
 - Nurdaulet, Group SE-2201
