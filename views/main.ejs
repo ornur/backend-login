@@ -30,6 +30,9 @@
                             <p>City: <%= weather.name %></p>
                             <p>Temperature: <%= Math.round(weather.main.temp - 273) %> C</p>
                             <p>Description: <%= weather.weather[0].description %></p>
+                            <p>Pressure: <%= weather.main.pressure%> mb</p>
+                            <p>Humidity: <%= weather.main.humidity%> %</p>
+                            <p>Wind speed: <%= weather.wind.speed%> m/s</p>
                         <% }) %>
                     </div>
                 <% } else { %>
