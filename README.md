@@ -1,4 +1,4 @@
-# Assignment - 2: MongoDB and Deployment
+# Assignment - 3: MongoDB and Deployment
 
 ## Overview
 This individual assignment focuses on working with MongoDB and Deployment. The project includes developing a login page, admin panel, integrating APIs, and deploying the application.
@@ -50,7 +50,7 @@ This individual assignment focuses on working with MongoDB and Deployment. The p
 
 ## Admin Username and Password
 - Admin username: Nurdaulet
-- Admin password: 'admin'
+- Admin password: In moodle
 
 ## Project Contributors
 - Nurdaulet, Group SE-2201
