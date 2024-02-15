@@ -14,7 +14,7 @@ This individual assignment focuses on working with MongoDB and Deployment. The p
    - In MongoDB Atlas database have table for user and their histories.
 
 3. **Deployment:**
-   - Deploy the project on a hosting service. I used `Microsoft Azure Virtual Machine` to get access my website
+   - Deploy the project on a hosting service. I used `Render` to get access my website
    
 4. **Project Organization and Design:**
    - Maintain clean code and project structure.
@@ -56,5 +56,5 @@ This individual assignment focuses on working with MongoDB and Deployment. The p
 - Nurdaulet, Group SE-2201
 
 ## Links
-- **Deployed Link:** http://20.82.148.215/
+- **Deployed Link:** https://login-weather.onrender.com/
 - **GitHub Repository:** https://github.com/ornur/backend-login
